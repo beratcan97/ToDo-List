@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+
+    <h1 id="header">ToDoList</h1>
+
+    <div id="container">
+
+        <div id="userInputs">
+            <!--input from user-->
+            <input type="text" placeholder="Things to do..." id="input">
+
+            <!--Buttons-->
+            <button type="button" onclick="addButton()">Add</button>
+            <button type="button" onclick="doneButton()">Done</button>
+            <button type="button" onclick="removeButton()">Remove todo item</button>
+            <button type="button" onclick="removeDoneButton()">Remove done item</button>
+        </div>
+        
+        <!--H2 header-->
+        <h2 id="toDoListHeader">ToDo list</h2>
+        <h2 id="doneListHeader">Done list</h2>
+        <br>
+        <br>
+        <br>
+        <hr id="line">
+
+        <!--List-->
+        <select id="toDoList" size="10">
+        </select>
+
+        <select id="doneList" size="10">
+        </select>
+
+    </div>
+        <script type="text/javascript" src="List.js"></script>
+    </body>
+</html>

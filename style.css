@@ -1,0 +1,43 @@
+#container{
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    padding-bottom: 100%;
+    background-color: lightgrey;
+}
+#toDoList {
+    float: left;
+    list-style: none;
+    border: 5px solid black;
+    margin-top: 5%;
+    margin-left: 5%;
+    width: 15%;
+}
+#doneList {
+    float: right;
+    list-style: none;
+    border: 5px solid black;
+    margin-top: 5%;
+    margin-right: 5%;
+    width: 15%;
+}
+#userInputs {
+    text-align: center;
+}
+#header {
+    text-align: center;
+}
+#toDoListHeader {
+    float: left;
+    margin-left: 10%;
+}
+#doneListHeader {
+    float: right;
+    margin-right: 10%;
+}
+#line{
+    height: 10px;
+    width: 100%;
+    background-color: black;
+}
